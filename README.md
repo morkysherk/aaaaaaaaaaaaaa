@@ -53,7 +53,7 @@ Buttons
 		  end
 		  no text
           on click:yield 1 peanutButter
-		  on click:if (chance(min(25,(0.3+(chanceIncreases*0.03)))%)) yield 1 goldBeanPod
+		  on click:if (chance(max(25,(0.3+(chanceIncreases*0.03)))%)) yield 1 goldBeanPod
 		  on click:if (have combinedClicking) yield 0.5 chocolate
 		  on click:if (have peanutcupClicking) yield (1/3) peanutCups
 		  on click:
