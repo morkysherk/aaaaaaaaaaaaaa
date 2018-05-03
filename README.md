@@ -31,7 +31,7 @@ Buttons
 				if (buttonAnimation=5) anim icon wobbleSlow
 		  end
 		  no text
-          on click:yield 1 chocolate
+          on click:yield 100000000000000 chocolate
 		  on click:if (chance(min(20,(0.3+(chanceIncreases*0.03)))%)) yield 1 goldBeanPod
 		  on click:if (have combinedClicking) yield 0.5 peanutButter
 		  on click:if (have peanutcupClicking) yield (1/3) peanutCups
